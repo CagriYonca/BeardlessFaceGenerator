@@ -1,8 +1,8 @@
 # finalProject
 
-İnsan yüzündeki sakalın tespiti ve sakal yerine sakalsız cilt yerleştirilmesi amaçlandı. Yüz üzerinde çenenin tespit edilebilmesi için dlib kütüphanesinin facial landmarks fonksiyonunu kullandım. Aldığım çene görüntüsü üzerinde sakal olup olmadığını tespit edebilmek için bir sınıflandırıcı model eğittim. Sakallı görüntülerin yerine uygun sakalsız insan cildi yerleştirilebilmesi için bir GAN modeli eğittim, bu modeli eğitirken Chuanxia Zheng, Tat-Jen Cham ve Jianfei Cai in geliştirdiği Plural Image Completion projesinden yararlandım.
+It was aimed to determine the beard on the human face and to replace the beard with beardless skin. I used the facial landmarks function of the dlib library to detect the chin on the face. I trained a classifier model to detect whether there is a beard on the chin image I took. I trained a GAN model to replace bearded images with appropriate beardless human skin. While training this model, I used the Plural Image Completion project developed by Chuanxia Zheng, Tat-Jen Cham and Jianfei Cai.
 
-Detaylı bilgi için: https://github.com/CagriYonca/finalProject/blob/master/final_project.pdf
+For more detailed information: https://github.com/CagriYonca/finalProject/blob/master/final_project.pdf
 
 <img src="https://raw.githubusercontent.com/CagriYonca/finalProject/master/0001.jpg" width="900">
 <img src="https://raw.githubusercontent.com/CagriYonca/finalProject/master/vsf.PNG" width="900">
